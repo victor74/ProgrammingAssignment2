@@ -8,8 +8,8 @@
 ## cacheSolve(cachematrix)
 
 ## makeCacheMatrix creates a list which contains functions
-## used to access matrix and it's inverse. It also stores matrix values
-## and caches inverse of the matrix
+## used to access matrix and it's inverse. It also stores
+## matrix values and caches inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     i <- NULL
@@ -26,8 +26,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## cacheSolve is a function which returns an inverse of CacheMatrix
-## it returns cached values if they are available in CacheMatrix object passed as a parameter
-## or calculates the inverse of the passed object and stores in it 
+## it returns cached values if they are available in CacheMatrix
+## object passed as a parameter or calculates the inverse 
+## of the passed object and stores in it 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
